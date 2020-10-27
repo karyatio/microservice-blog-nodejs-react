@@ -42,4 +42,7 @@ app.post("/events", (req, res) => {
   res.send({});
 });
 
-app.listen(4000, () => console.log("listening on port 4000"));
+app.listen(4000, () => {
+  console.log("v66");
+  console.log("listening on port 4000");
+});
